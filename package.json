@@ -1,0 +1,20 @@
+{
+  "name": "mal-sync",
+  "scripts": {
+    "sync": "node scraper.js",
+    "fix": "prettier --write ."
+  },
+  "prettier": "@barelyhuman/prettier-config",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.41.2",
+    "quick.db": "^9.1.7",
+    "write-file-atomic": "^5.0.1"
+  },
+  "devDependencies": {
+    "@barelyhuman/prettier-config": "^1.1.0",
+    "prettier": "^3.2.5"
+  }
+}
