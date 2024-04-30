@@ -16,7 +16,9 @@ async function main() {
   })
 
   for (let id of data) {
-    await scrape(id, browser)
+    await scrape(id, browser).catch(err => {
+      // digest
+    })
   }
 
   await browser.close()
